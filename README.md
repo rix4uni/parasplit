@@ -1,13 +1,13 @@
-# Parasplit
+# parasplit
  Split wildcards.txt and Run parallelly
 
 # Install
 ```
-git clone https://github.com/rix4uni/Parasplit.git && cd Parasplit && chmod +x parasplit && cd .. && mv Parasplit ~/bin
+git clone https://github.com/rix4uni/parasplit.git && cd parasplit && chmod +x parasplit && cd .. && mv parasplit ~/bin
 ```
 
 ```
-if ! grep -qxF 'export PATH="$HOME/bin/Parasplit:$PATH"' ~/.bashrc ; then echo -e '\nexport PATH="$HOME/bin/Parasplit:$PATH"' >> ~/.bashrc ; fi && source ~/.bashrc
+if ! grep -qxF 'export PATH="$HOME/bin/parasplit:$PATH"' ~/.bashrc ; then echo -e '\nexport PATH="$HOME/bin/parasplit:$PATH"' >> ~/.bashrc ; fi && source ~/.bashrc
 ```
 
 ```
